@@ -48,7 +48,7 @@ export const Route = createFileRoute("/")({
           description:
             "International education center for IELTS, iTEP Academic, English courses, international certification and educational consulting.",
           email: "acoraeducation@gmail.com",
-          telephone: "+996 222 060 036",
+          telephone: "+996 550 878 512",
           address: {
             "@type": "PostalAddress",
             streetAddress: "Bukhobaeva Moldokazy str. 13",
@@ -719,7 +719,7 @@ function Contact() {
           <ul className="mt-10 space-y-6">
             {[
               { icon: MapPin, k: "Office", v: "Bukhobaeva Moldokazy str. 13, Dzhany-Dzher, Sokuluk district, Kyrgyz Republic" },
-              { icon: Phone, k: "Phone / WhatsApp", v: "+996 222 060 036" },
+              { icon: Phone, k: "Phone / WhatsApp", v: "+996 550 878 512" },
               { icon: Mail, k: "Email", v: "acoraeducation@gmail.com" },
               { icon: Clock, k: "Business Hours", v: "Mon – Fri · 09:00 – 18:00" },
             ].map((c) => (
@@ -789,7 +789,7 @@ function Footer() {
         <div>
           <div className="text-xs uppercase tracking-[0.24em] text-white/40">Contact</div>
           <ul className="mt-4 space-y-2 text-sm">
-            <li>+996 222 060 036</li>
+            <li>+996 550 878 512</li>
             <li>acoraeducation@gmail.com</li>
             <li>Mon – Fri · 09:00 – 18:00</li>
           </ul>
